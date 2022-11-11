@@ -69,7 +69,7 @@ xkb_symbols "cz" {
     key <AE08>  {[        aacute,              8 ] }; // á8
     key <AE09>  {[        iacute,              9 ] }; // í9
     key <AE10>  {[        eacute,              0 ] }; // é0
-    key <AE11>  {[   bracketleft,   bracketright ] }; // []
+    key <AE11>  {[     parenleft,     parenright ] }; // ()
     key <AE12>  {[    dead_acute,     dead_caron ] }; // ´ˇ
 
     key <AD12>  {[ uacute,           plus,  NoSymbol, NoSymbol ] }; // ú+
