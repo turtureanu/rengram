@@ -11,6 +11,8 @@ cd rengram
 sudo make install
 ```
 
+You can start using it using `setxkbmap -layout rengram` or by selecting it from your settings.
+
 ### Unistall
 ```bash
 # from the 'rengram' directory
