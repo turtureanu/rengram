@@ -4,6 +4,8 @@ Rengram is a keyboard layout made for people who want to use the [Engram](https:
 
 I also included a Czech variant of the rengram layout for personal use.
 
+![rengram keyboard layout](/keyboard-layout.png)
+
 ## Install
 ```bash
 git clone https://github.com/turtureanu/rengram.git
