@@ -42,6 +42,7 @@ xkb_symbols "basic" {
 	key <AC10> { [            n,           N ] }; // nN
 	key <AC11> { [            q,           Q ] }; // qQ
 
+	key <LSGT> { [ backslash,            bar ] }; // \|
 	key <AB01> { [            g,           G ] }; // gG
 	key <AB02> { [            x,           X ] }; // xX
 	key <AB03> { [            j,           J ] }; // jJ
@@ -59,7 +60,7 @@ xkb_symbols "cz" {
     include "rengram(basic)"
     name[Group1]="Reassembled Engram (CZ)";
     key <TLDE>  {[         grave,     asciitilde ] }; // `~
-    key <AE01>  {[        exclam,              1 ] }; // !1``
+    key <AE01>  {[        exclam,              1 ] }; // !1
     key <AE02>  {[        ecaron,              2 ] }; // ě2
     key <AE03>  {[        scaron,              3 ] }; // š3
     key <AE04>  {[        ccaron,              4 ] }; // č4
@@ -69,11 +70,13 @@ xkb_symbols "cz" {
     key <AE08>  {[        aacute,              8 ] }; // á8
     key <AE09>  {[        iacute,              9 ] }; // í9
     key <AE10>  {[        eacute,              0 ] }; // é0
-    key <AE11>  {[     parenleft,     parenright ] }; // ()
-    key <AE12>  {[    dead_acute,     dead_caron ] }; // ´ˇ
+    key <AE11>  {[     parenleft,     braceleft ] }; // ([
+    key <AE12>  {[    parenright,    braceright ] }; // )]
 
     key <AD12>  {[ uacute,           plus,  NoSymbol, NoSymbol ] }; // ú+
 
     key <BKSL>  {[ uring,  dead_diaeresis, backslash,      bar ] }; // ů¨
+
+    key <LSGT>  {[ dead_acute,                       dead_caron ] }; // ´ˇ
 };
 
