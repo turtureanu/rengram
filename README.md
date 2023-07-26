@@ -6,6 +6,8 @@ I also included a Czech variant of the rengram layout for personal use.
 
 ![rengram keyboard layout](/keyboard-layout.png)
 
+[qwerty-vs-rengram.webm](https://github.com/turtureanu/rengram/assets/90131332/b775ad03-a1fe-441f-b7d2-1d4267ed5b7d)
+
 ## Install
 ```bash
 git clone https://github.com/turtureanu/rengram.git
